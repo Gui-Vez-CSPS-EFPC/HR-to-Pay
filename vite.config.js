@@ -19,8 +19,11 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
 
         /* ↓↓ Edit  to rename/create new page (see readme) */
-        page1: resolve(root, 'page1', 'index.html'),
-        page2: resolve(root, 'page2', 'index.html'),
+        page51_en: resolve(root, 'page5-1_en', 'index.html'),
+        page52_en: resolve(root, 'page5-2_en', 'index.html'),
+        page53_en: resolve(root, 'page5-3_en', 'index.html'),
+        page54_en: resolve(root, 'page5-4_en', 'index.html'),
+        page55_en: resolve(root, 'page5-5_en', 'index.html'),
         /* ↑↑ */
       }
     }

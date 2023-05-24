@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Page 1</h1>
+        <h1>Page 5-1</h1>
     </div>
 </template>
 
@@ -8,7 +8,6 @@
 
 <script type="text/javascript">
 
-import interactiveVideo from "../components/interactive-video.vue";
 import modal from "../components/modal.vue";
 import accordion from "../components/accordion.vue";
 import accordionContainer from "../components/accordion-container.vue";
@@ -23,7 +22,6 @@ import textSelectQuestion from "../components/question-set/question-types/text-s
 
 export default {
     components: {
-        interactiveVideo,
         modal,
         accordion,
         accordionContainer,
@@ -42,9 +40,6 @@ export default {
     data() {
         return {
             lang: "en",
-            poster: poster,
-            chapters: chapters,
-            cc: cc,
 
             //Each array in the main array is a paragraph, each object in those arrays is a dropdown with the text before and after it.
             q3Content:[
