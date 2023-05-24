@@ -1,20 +1,12 @@
 <template>
     <div>
-        <h1>Conclusion: Nishiime’s story</h1>
-
-
-        <img src="../assets/images/Nishiime_Holiday_Happy.png" alt="Nishiime smiling.">
-
-        <p>In Scenario 5, Nishiime’s story, we explored the following actions:</p>
+        <h1>Scenario 5: Nishiime Whiteduck</h1>
+        <p>This scenario follows Nishiime’s journey as she navigates various human resources (HR) activities leading to pay. Through Nishiime’s story, you will explore topics such as:</p>
         <ul>
-            <li>leave without pay and leave with income averaging</li>
+            <li>leave without pay and leave with income averaging </li>
             <li>consulting the relevant collective agreement and the Directive on Leave and Special Working Arrangements</li>
             <li>transferring out</li>
         </ul>
-
-
-        <h2>Pause and reflect</h2>
-        <p>Indicate one fact you learned in this module that you didn’t previously know (optional).</p>
     </div>
 </template>
 
@@ -22,7 +14,6 @@
 
 <script type="text/javascript">
 
-import interactiveVideo from "../components/interactive-video.vue";
 import modal from "../components/modal.vue";
 import accordion from "../components/accordion.vue";
 import accordionContainer from "../components/accordion-container.vue";
@@ -37,7 +28,6 @@ import textSelectQuestion from "../components/question-set/question-types/text-s
 
 export default {
     components: {
-        interactiveVideo,
         modal,
         accordion,
         accordionContainer,

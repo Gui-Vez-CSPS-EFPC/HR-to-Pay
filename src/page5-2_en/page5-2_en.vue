@@ -1,6 +1,35 @@
 <template>
     <div>
-        <h1>Page 5-2</h1>
+        <h1>In practice: Nishiime's LIA</h1>
+
+        
+        <p>Now that Nishiime has selected the right type of leave, it’s time to make sure the paperwork is correct!</p>
+
+        <!-- [irl card] -->
+
+        <h2>Hot tip</h2>
+        <p>LIA documentation, such as a the <a href="https://intranet.canada.ca/wg-tg/tbsf-fsct/325-10-f-eng.pdf" target="_blank">Application for leave with income averaging form</a> and any other organization-specific forms should be submitted for processing at least 12 weeks in advance to ensure enough time for processing. A confirmation letter will be sent from compensation unit highlighting the LIA details.</p>
+
+        <!-- [/hot tip card] -->
+
+
+        <!-- [click and reveal] -->
+
+        <h2>What do you think?</h2>
+
+        <!-- [question 1] -->
+        <p><strong>What do you think might happen if Nishiime’s LIA documentation is processed too late?</strong></p>
+        <!-- [button] -->
+        <p>Show me the answer</p>
+
+        <!-- [reveal text] -->
+        <!-- [Click and reveal answer] -->
+
+        <p>Nishiime will see her pay deducted over a shorter period than the 12 months originally planned. Over this shorter period, there will be greater deductions on each pay. Avoiding delays will allow for your salary to be averaged more evenly, alleviating any possible concerns about finances, pension and benefits coverage.</p>
+
+        <!-- [dyk] -->
+        <p>On many government forms, there is a signature box is labeled “responsibility centre manager”. In most organizations, this is the same as the section 34 manager.</p>
+        <!-- [/dyk] -->
     </div>
 </template>
 
@@ -8,6 +37,7 @@
 
 <script type="text/javascript">
 
+import interactiveVideo from "../components/interactive-video.vue";
 import modal from "../components/modal.vue";
 import accordion from "../components/accordion.vue";
 import accordionContainer from "../components/accordion-container.vue";
@@ -22,6 +52,7 @@ import textSelectQuestion from "../components/question-set/question-types/text-s
 
 export default {
     components: {
+        interactiveVideo,
         modal,
         accordion,
         accordionContainer,
